@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "867043089376",
+    "project_id": "valued-sight-129916"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867043089376:android:c9b7b2f2d5fd2672",
+        "android_client_info": {
+          "package_name": "com.fourthwardcoder.android.googlesignindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867043089376-6binhu2obpgdbh5alpnoebr61barqcmb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fourthwardcoder.android.googlesignindemo",
+            "certificate_hash": "FAA18950E841756110C1CAED4AF76D7D3ACA1A7B"
+          }
+        },
+        {
+          "client_id": "867043089376-jnfvrqsf47hfnirloi43sab27vm3pjb0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK5VJTUs-SKGm4SMk5ffN4M93uXSykvbc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

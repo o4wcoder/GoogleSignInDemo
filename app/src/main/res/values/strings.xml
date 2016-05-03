@@ -1,0 +1,10 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">GoogleSignInDemo</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="revoke_access">Revoke Access</string>
+
+    <!-- Status Updates -->
+    <string name="status_sighning_in">Signing In...</string>
+    <string name="status_signed_in_as">Signed in to Google+ as <xliff:g id="signin">%1$s</xliff:g></string>
+    <string name="loading">Loading…</string>
+</resources>
