@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
     /**************************************************************************/
     GoogleApiClient mGoogleApiClient;
 
-    SignInButton mSignInButton;
+    Button mSignInButton;
     Button mSignOutButton;
     Button mRevokeAccessButton;
     TextView mStatusTextView;
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
         setContentView(R.layout.activity_main);
 
         Log.e(TAG,"onCreate() Inside");
-        mSignInButton = (SignInButton) findViewById(R.id.sign_in_button);
+        mSignInButton = (Button) findViewById(R.id.sign_in_button);
         mSignOutButton = (Button)findViewById(R.id.sign_out_button);
         mRevokeAccessButton = (Button)findViewById(R.id.revoke_access_button);
         mStatusTextView = (TextView)findViewById(R.id.status_info_textview);
@@ -83,18 +83,18 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 .build();
 
 
-        mSignInButton.setScopes(gso.getScopeArray());
-
-        //Fix text alignment on Google Plus signin button
-        for (int i = 0; i < mSignInButton.getChildCount(); i++) {
-            View v = mSignInButton.getChildAt(i);
-
-            if (v instanceof TextView) {
-                TextView tv = (TextView) v;
-                tv.setPadding(0, 0, 20, 0);
-                return;
-            }
-        }
+//        mSignInButton.setScopes(gso.getScopeArray());
+//
+//        //Fix text alignment on Google Plus signin button
+//        for (int i = 0; i < mSignInButton.getChildCount(); i++) {
+//            View v = mSignInButton.getChildAt(i);
+//
+//            if (v instanceof TextView) {
+//                TextView tv = (TextView) v;
+//                tv.setPadding(0, 0, 20, 0);
+//                return;
+//            }
+//        }
     }
 
     @Override

@@ -15,11 +15,14 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <com.google.android.gms.common.SignInButton
+        <Button
             android:id="@+id/sign_in_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textAlignment="center" />
+            android:textAlignment="center"
+            android:background="@drawable/button_signin_custom"
+            android:text="@string/sign_in"
+            android:textAllCaps="false"/>
 
         <Button
             android:id="@+id/sign_out_button"
